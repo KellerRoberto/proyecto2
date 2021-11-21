@@ -41,7 +41,7 @@ body {
       padding-top: 10px; }
       @media (max-width: 576px) {
         body .encabezado .encabezado__h1 {
-          font-size: 1rem; } }
+          font-size: 2rem; } }
     body .encabezado .encabezado__h2 {
       color: rgba(167, 165, 160, 0.9);
       text-align: center;
@@ -59,27 +59,20 @@ body {
       body .container-fluid .nav-link:hover {
         transform: scale(1.2, 1.2) !important;
         color: #e6a6a6 !important; }
-  
   body .contenedor {
     width: 100%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr, 4fr);
-    grid-template-areas: "cita cita"
- "area1 area1"
- "area2 area2";
+    grid-template-areas: "cita cita" "area1 area1" "area2 area2";
     grid-gap: 10px; }
     @media (max-width: 576px) {
-      body .contenedor{
-        grid-template-areas: "cita cita"
- "area2 area2"
- "area1 area1"; } }
+      body .contenedor {
+        grid-template-areas: "cita cita" "area2 area2" "area1 area1"; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       body .contenedor {
-        grid-template-areas: "cita cita"
- "area1 area1"
- "area2 area2"; } }
+        grid-template-areas: "cita cita" "area1 area1" "area2 area2"; } }
     body .contenedor .cita {
       grid-area: cita;
       color: #949494;
@@ -91,7 +84,7 @@ body {
       @media (max-width: 576px) {
         body .contenedor .cita {
           font-size: 0.7rem;
-          padding: 10px 0px 10px 0px; } }
+          padding: 30px 0px 0px 0px; } }
     body .contenedor .area1 {
       grid-area: area1; }
       body .contenedor .area1 .area1__h3 {
@@ -99,7 +92,6 @@ body {
         color: rgba(167, 165, 160, 0.5);
         font-family: 'Cormorant', serif;
         text-align: center;
-        padding: 20px;
         font-size: 1.5rem; }
         @media (max-width: 576px) {
           body .contenedor .area1 .area1__h3 {
@@ -115,7 +107,7 @@ body {
         @media (max-width: 576px) {
           body .contenedor .area1 .area1__p {
             font-size: 0.7rem;
-            padding: 0px; } }
+            padding: 10px; } }
     body .contenedor .area2 {
       grid-area: area2; }
       body .contenedor .area2 .area2__h3 {
@@ -123,7 +115,6 @@ body {
         color: rgba(167, 165, 160, 0.5);
         font-family: 'Cormorant', serif;
         text-align: center;
-        padding: 20px;
         font-size: 1.5rem; }
         @media (max-width: 576px) {
           body .contenedor .area2 .area2__h3 {
@@ -134,7 +125,7 @@ body {
         padding-top: 25px;
         grid-gap: 1px; }
         body .contenedor .area2 .galeria .galeria__img {
-          width: 215px;
+          width: 225px;
           height: 300px;
           object-fit: cover;
           transition: all 2s ease; }
@@ -160,28 +151,6 @@ body {
               transition: all 2s ease; }
               body .contenedor .area2 .galeria .galeria__img:hover {
                 transform: scale(1.3, 1.3); } }
-      body .contenedor .area2 .galeriaProducto {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px; }
-        body .contenedor .area2 .galeriaProducto .fotoProducto {
-          width: 200px;
-          height: 150px;
-          object-fit: cover;
-          transition: all 2s ease; }
-          body .contenedor .area2 .galeriaProducto .fotoProducto:hover {
-            transform: scale(1.5, 1.5); }
-          @media (max-width: 576px) {
-            body .contenedor .area2 .galeriaProducto .fotoProducto {
-              width: 320px;
-              height: 220px; } }
-          @media (min-width: 768px) {
-            body .contenedor .area2 .galeriaProducto .fotoProducto {
-              width: 236px;
-              height: 150px; } }
-        @media (max-width: 576px) {
-          body .contenedor .area2 .galeriaProducto {
-            grid-template-columns: repeat(1, 1fr); } }
   body .gradienteFooter {
     background: linear-gradient(to left, rgba(255, 0, 0, 0), #363636); }
     body .gradienteFooter .linkfooter {
