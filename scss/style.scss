@@ -175,7 +175,7 @@ body{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 padding-top: 25px;
-                grid-gap: 5px;
+                grid-gap: 1px;
                 .galeria__img{
                     width: 150px;
                     height: 200px;
@@ -230,7 +230,6 @@ body{
         width: 100%;
         height: auto;
         display: grid;
-        
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr, 4fr);
         grid-template-areas: 
