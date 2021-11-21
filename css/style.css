@@ -166,6 +166,9 @@ body {
       font-family: 'Cormorant', serif;
       text-align: left;
       padding-left: 30px; }
+    body .gradienteFooter .logoWhatsapp {
+      width: 10px;
+      height: 10px; }
   body .formulario {
     margin: 15px 50px 50px 50px;
     text-align: center; }
