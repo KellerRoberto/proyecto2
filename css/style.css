@@ -60,7 +60,7 @@ body {
         transform: scale(1.2, 1.2) !important;
         color: #e6a6a6 !important; }
   
-  body .contenedorIndex {
+  body .contenedor {
     width: 100%;
     height: auto;
     display: grid;
@@ -71,16 +71,16 @@ body {
  "area2 area2";
     grid-gap: 10px; }
     @media (max-width: 576px) {
-      body .contenedorIndex {
+      body .contenedor{
         grid-template-areas: "cita cita"
  "area2 area2"
  "area1 area1"; } }
     @media (min-width: 768px) and (max-width: 1023px) {
-      body .contenedorIndex {
+      body .contenedor {
         grid-template-areas: "cita cita"
  "area1 area1"
  "area2 area2"; } }
-    body .contenedorIndex .cita {
+    body .contenedor .cita {
       grid-area: cita;
       color: #949494;
       text-align: center;
@@ -89,12 +89,12 @@ body {
       font-weight: normal;
       padding: 30px 0px 30px 0px; }
       @media (max-width: 576px) {
-        body .contenedorIndex .cita {
+        body .contenedor .cita {
           font-size: 0.7rem;
           padding: 10px 0px 10px 0px; } }
-    body .contenedorIndex .area1 {
+    body .contenedor .area1 {
       grid-area: area1; }
-      body .contenedorIndex .area1 .area1__h3 {
+      body .contenedor .area1 .area1__h3 {
         background: linear-gradient(to right, rgba(255, 0, 0, 0), #363636);
         color: rgba(167, 165, 160, 0.5);
         font-family: 'Cormorant', serif;
@@ -102,9 +102,9 @@ body {
         padding: 20px;
         font-size: 1.5rem; }
         @media (max-width: 576px) {
-          body .contenedorIndex .area1 .area1__h3 {
+          body .contenedor .area1 .area1__h3 {
             font-size: 1rem; } }
-      body .contenedorIndex .area1 .area1__p {
+      body .contenedor .area1 .area1__p {
         color: #949494;
         font-family: 'Open Sans Condensed', sans-serif;
         text-align: center;
@@ -113,12 +113,12 @@ body {
         padding-left: 25px;
         padding-top: 25px; }
         @media (max-width: 576px) {
-          body .contenedorIndex .area1 .area1__p {
+          body .contenedor .area1 .area1__p {
             font-size: 0.7rem;
             padding: 0px; } }
-    body .contenedorIndex .area2 {
+    body .contenedor .area2 {
       grid-area: area2; }
-      body .contenedorIndex .area2 .area2__h3 {
+      body .contenedor .area2 .area2__h3 {
         background: linear-gradient(to left, rgba(255, 0, 0, 0), #363636);
         color: rgba(167, 165, 160, 0.5);
         font-family: 'Cormorant', serif;
@@ -126,61 +126,61 @@ body {
         padding: 20px;
         font-size: 1.5rem; }
         @media (max-width: 576px) {
-          body .contenedorIndex .area2 .area2__h3 {
+          body .contenedor .area2 .area2__h3 {
             font-size: 1rem; } }
-      body .contenedorIndex .area2 .galeria {
+      body .contenedor .area2 .galeria {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         padding-top: 25px;
         grid-gap: 1px; }
-        body .contenedorIndex .area2 .galeria .galeria__img {
+        body .contenedor .area2 .galeria .galeria__img {
           width: 215px;
           height: 300px;
           object-fit: cover;
           transition: all 2s ease; }
-          body .contenedorIndex .area2 .galeria .galeria__img:hover {
+          body .contenedor .area2 .galeria .galeria__img:hover {
             transform: scale(1.3, 1.3); }
         @media (max-width: 576px) {
-          body .contenedorIndex .area2 .galeria {
+          body .contenedor .area2 .galeria {
             grid-template-columns: repeat(2, 2fr); }
-            body .contenedorIndex .area2 .galeria .galeria__img {
+            body .contenedor .area2 .galeria .galeria__img {
               width: 179.5px;
               height: 200px;
               object-fit: cover;
               transition: all 2s ease; }
-              body .contenedorIndex .area2 .galeria .galeria__img:hover {
+              body .contenedor .area2 .galeria .galeria__img:hover {
                 transform: scale(1.3, 1.3); } }
         @media (min-width: 768px) and (max-width: 1023px) {
-          body .contenedorIndex .area2 .galeria {
+          body .contenedor .area2 .galeria {
             grid-template-columns: repeat(3, 2fr); }
-            body .contenedorIndex .area2 .galeria .galeria__img {
+            body .contenedor .area2 .galeria .galeria__img {
               width: 255px;
               height: 300px;
               object-fit: cover;
               transition: all 2s ease; }
-              body .contenedorIndex .area2 .galeria .galeria__img:hover {
+              body .contenedor .area2 .galeria .galeria__img:hover {
                 transform: scale(1.3, 1.3); } }
-      body .contenedorIndex .area2 .galeriaProducto {
+      body .contenedor .area2 .galeriaProducto {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px; }
-        body .contenedorIndex .area2 .galeriaProducto .fotoProducto {
+        body .contenedor .area2 .galeriaProducto .fotoProducto {
           width: 200px;
           height: 150px;
           object-fit: cover;
           transition: all 2s ease; }
-          body .contenedorIndex .area2 .galeriaProducto .fotoProducto:hover {
+          body .contenedor .area2 .galeriaProducto .fotoProducto:hover {
             transform: scale(1.5, 1.5); }
           @media (max-width: 576px) {
-            body .contenedorIndex .area2 .galeriaProducto .fotoProducto {
+            body .contenedor .area2 .galeriaProducto .fotoProducto {
               width: 320px;
               height: 220px; } }
           @media (min-width: 768px) {
-            body .contenedorIndex .area2 .galeriaProducto .fotoProducto {
+            body .contenedor .area2 .galeriaProducto .fotoProducto {
               width: 236px;
               height: 150px; } }
         @media (max-width: 576px) {
-          body .contenedorIndex .area2 .galeriaProducto {
+          body .contenedor .area2 .galeriaProducto {
             grid-template-columns: repeat(1, 1fr); } }
   body .gradienteFooter {
     background: linear-gradient(to left, rgba(255, 0, 0, 0), #363636); }
