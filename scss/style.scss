@@ -58,7 +58,7 @@ body{
           
           }
         .encabezado__h2{
-            color: hsla(45, 4%, 64%, 0.9);
+           color: hsla(45, 4%, 64%, 0.9);
            text-align: center;
            font-family: 'Cormorant', serif;
            font-size: 1.2rem;
@@ -95,6 +95,7 @@ body{
         "area1 area2"
         "area1 area2";
         grid-gap: 10px;
+        
 
         @media (max-width: 576px) {
             grid-template-areas: 
@@ -144,7 +145,7 @@ body{
                 color: #949494;
                 font-family: 'Open Sans Condensed', sans-serif;
                 text-align: center;
-                width: 95%; 
+                width: 100%; 
                 font-size: 1rem; 
                 
                 padding-top: 25px;

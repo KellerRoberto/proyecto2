@@ -66,14 +66,20 @@ body {
     padding: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr, 4fr);
-    grid-template-areas: "cita cita" "area1 area2" "area1 area2";
+    grid-template-areas: "cita cita"
+ "area1 area2"
+ "area1 area2";
     grid-gap: 10px; }
     @media (max-width: 576px) {
       body .contenedor {
-        grid-template-areas: "cita cita" "area1 area1" "area2 area2"; } }
+        grid-template-areas: "cita cita"
+ "area1 area1"
+ "area2 area2"; } }
     @media (max-width: 768px) {
       body .contenedor {
-        grid-template-areas: "cita cita" "area1 area1" "area2 area2"; } }
+        grid-template-areas: "cita cita"
+ "area1 area1"
+ "area2 area2"; } }
     body .contenedor .cita {
       grid-area: cita;
       color: #949494;
@@ -117,7 +123,7 @@ body {
         color: rgba(167, 165, 160, 0.5);
         font-family: 'Cormorant', serif;
         text-align: center;
-        padding: 20px;
+        
         font-size: 1.5rem; }
         @media (max-width: 576px) {
           body .contenedor .area2 .area2__h3 {
@@ -165,14 +171,20 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr, 4fr);
-    grid-template-areas: "cita cita" "area1 area1" "area2 area2";
+    grid-template-areas: "cita cita"
+ "area1 area1"
+ "area2 area2";
     grid-gap: 10px; }
     @media (max-width: 576px) {
       body .contenedorIndex {
-        grid-template-areas: "cita cita" "area2 area2" "area1 area1"; } }
+        grid-template-areas: "cita cita"
+ "area2 area2"
+ "area1 area1"; } }
     @media (min-width: 768px) and (max-width: 1023px) {
       body .contenedorIndex {
-        grid-template-areas: "cita cita" "area1 area1" "area2 area2"; } }
+        grid-template-areas: "cita cita"
+ "area1 area1"
+ "area2 area2"; } }
     body .contenedorIndex .cita {
       grid-area: cita;
       color: #949494;
